@@ -1,6 +1,6 @@
 // Step 1: Import React
 import * as React from 'react'
-<script src="https://cdn.tailwindcss.com"></script>
+
 // Step 2: Define your component
 const IndexPage = () => {
   return (
@@ -40,13 +40,11 @@ const IndexPage = () => {
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-lg text-center">
       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+        
       </h2>
 
       <p className="hidden text-gray-500 sm:mt-4 sm:block">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis
-        repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt
-        tempora nisi?
+        
       </p>
     </div>
 
@@ -74,7 +72,7 @@ const IndexPage = () => {
 </section>
   {/*END CALL TO ACTION*/}
   {/*PRODUCT LIST*/}
-  <a href="#" class="container grid grid-cols-3 gap-4 max-w-xl mx-auto py-8" className="group block">
+  <a href="#" class="grid grid-cols-3 gap-4 max-w-xl mx-auto py-8" className="group block">
   <img
     src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
     alt=""
