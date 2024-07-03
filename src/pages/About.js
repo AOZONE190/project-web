@@ -12,6 +12,9 @@ const AboutPage = () => {
 }
 
 // Step 3: Export your component
-export default function Component () {
-    return "Hello world"
-  }
+export const Head = () => (
+  <>
+    <title>About Me</title>
+    <meta name="description" content="Your description" />
+  </>
+)
